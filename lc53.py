@@ -10,7 +10,6 @@ class Solution:
             f = max(f+nums[i],nums[i])
             res = max(f,res)
         return res
-    
 s1 = Solution()
 list = [5,4,-1,7,8]
 print(s1.maxSubArray(list))
