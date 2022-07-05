@@ -152,7 +152,7 @@
 
 √17、丢失的数字（ LeetCode 268 ）
 
-18、2 的幂（ LeetCode 231 ）
+√18、2 的幂（ LeetCode 231 ）
 
 19、比特位计数（ LeetCode 338 ）
 
