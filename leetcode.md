@@ -156,9 +156,9 @@
 
 √19、比特位计数（ LeetCode 338 ）
 
-20、位 1 的个数（ LeetCode 191 ）
+√20、位 1 的个数（ LeetCode 191 ）
 
-21、只出现一次的数字 II（ LeetCode 137 ）
+√21、只出现一次的数字 II（ LeetCode 137 ）
 
 22、只出现一次的数字 III（ LeetCode 260 ）
 
