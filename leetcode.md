@@ -154,7 +154,7 @@
 
 √18、2 的幂（ LeetCode 231 ）
 
-19、比特位计数（ LeetCode 338 ）
+√19、比特位计数（ LeetCode 338 ）
 
 20、位 1 的个数（ LeetCode 191 ）
 
