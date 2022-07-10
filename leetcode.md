@@ -176,13 +176,13 @@
 
 √29、组合总和 II（ LeetCode 40 ）
 
-30、括号生成（ LeetCode 22 ）
+√30、括号生成（ LeetCode 22 ）
 
 31、火柴拼正方形（ LeetCode 437 ）
 
 32、接雨水 II（ LeetCode 407 ）
 
-33、组合（ LeetCode 77 ）
+√33、组合（ LeetCode 77 ）
 
 34、组合总和 II（ LeetCode 216 ）
 
