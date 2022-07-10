@@ -4,10 +4,11 @@ class Solution:
         res=[]
         n=len(nums)
         def backtrack(i,path: List[int]):
-            res.append(path)
+            res.append(path.copy())
             #把当前的分支加入
+            #注意深拷贝和浅拷贝
             for j in range(i,n):
-                path.append(nums[j])#做出选择
+                path.append(nums[j])
                 backtrack(j+1,path)
                 path.pop() #撤销上次的选择
         backtrack(0,[])

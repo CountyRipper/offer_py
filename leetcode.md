@@ -174,7 +174,7 @@
 
 √28、子集（ LeetCode 78 ）
 
-29、组合总和 II（ LeetCode 40 ）
+√29、组合总和 II（ LeetCode 40 ）
 
 30、括号生成（ LeetCode 22 ）
 
