@@ -172,7 +172,7 @@
 
 27、N 皇后（ LeetCode 51 ）（✨有作业）
 
-28、子集（ LeetCode 78 ）
+√28、子集（ LeetCode 78 ）
 
 29、组合总和 II（ LeetCode 40 ）
 
