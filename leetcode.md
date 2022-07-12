@@ -178,17 +178,17 @@
 
 √30、括号生成（ LeetCode 22 ）
 
-31、火柴拼正方形（ LeetCode 437 ）
+？31、火柴拼正方形（ LeetCode 437 ）
 
 32、接雨水 II（ LeetCode 407 ）
 
 √33、组合（ LeetCode 77 ）
 
-34、组合总和 II（ LeetCode 216 ）
+√34、组合总和 II（ LeetCode 216 ）
 
 35、分割回文串（ LeetCode 131 ）
 
-36、全排列（ LeetCode 46 ）
+√36、全排列（ LeetCode 46 ）
 
 第四周，二叉树
 1、二叉树基础知识
