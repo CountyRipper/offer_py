@@ -1,3 +1,4 @@
+# Definition for a binary tree node.
 from typing import List, Optional
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
@@ -5,21 +6,20 @@ class TreeNode:
         self.left = left
         self.right = right
 class Solution:
-    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         res=[]
         if not root:
-            return []
-        s = []
+            return res
         tmp=root
-        while tmp or s:
-            if tmp:
-                res.append(tmp.val)
+        s=[]
+        while tmp or len(s)>0:
+            if tmp.left:
                 s.append(tmp)
                 tmp=tmp.left
-            #进入右子树
             else:
                 tmp=s[-1]
                 s.pop()
+                res.append(tmp.val)
                 tmp=tmp.right
         return res
-                
+        
