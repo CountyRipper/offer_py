@@ -199,7 +199,7 @@
 
 √4、二叉树的后序遍历（ LeetCode 145 ）#双栈法root right left
 
-5、二叉树的层序遍历（ LeetCode 102 ）
+√5、二叉树的层序遍历（ LeetCode 102 ）注意条件输出
 
 6、二叉树的锯齿形层序遍历（ LeetCode 103 ）
 
