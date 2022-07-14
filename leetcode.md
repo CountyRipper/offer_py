@@ -197,7 +197,7 @@
 
 √3、二叉树的中序遍历（ LeetCode 94 ）
 
-4、二叉树的后序遍历（ LeetCode 145 ）
+√4、二叉树的后序遍历（ LeetCode 145 ）#双栈法root right left
 
 5、二叉树的层序遍历（ LeetCode 102 ）
 
