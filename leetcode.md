@@ -254,9 +254,9 @@
 
 √5、零钱兑换（ LeetCode 322 ）
 
-6、零钱兑换 II（ LeetCode 518 ）
+√6、零钱兑换 II（ LeetCode 518 ）
 
-7、最小路径和（ LeetCode 64 ）
+√7、最小路径和（ LeetCode 64 ）
 
 8、编辑距离（ LeetCode 72 ）
 

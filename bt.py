@@ -1,4 +1,8 @@
-x=0b011010
-print(bin(x&-x))
-y = 0b011010110
-print(bin(y&(y-1)))
+dp = [[0 for _ in range(3)] for _ in range(4)]
+dp2 = [[0]*3 for _ in range(4)]
+print(dp2)
+ll =[{'1':1},{'2':2},{'3':3}]
+ll[0].get()
+ll.remove()
+res =''
+res.
