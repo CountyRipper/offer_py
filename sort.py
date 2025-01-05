@@ -46,6 +46,60 @@ def insert_sort(list_1:List)-> List:
             j -=1
         list_1[j+1] = tmp    
     return n_list        
+
+def quick_sort(arr:List)-> List:
+    if len(arr)<=1:
+        return arr
+    
+    pivot = arr[len(arr)//2]
+    left = [x for x in arr if x < pivot]
+    right = [x for x in arr if x > pivot]
+    middle = [pivot]
+    
+    return quick_sort(left)+middle+quick_sort(right)
+
+def merge_sort(arr:List)-> List:
+    if len(arr)<=1:
+        return arr
+    mid = len(arr)//2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+    return merge(left,right)
+    
+def merge(arr1:List, arr2:List)-> List:
+    i=0
+    j=0
+    tmp =[]
+    while i <len(arr1) and j <len(arr2):
+        if(arr1[i]<=arr2[j]):
+            tmp.append(arr1[i])
+            i=i+1
+        else:
+            tmp.append(arr2[j])
+            j = j+1
+    tmp.extend(arr1[i:])
+    tmp.extend(arr2[j:])
+    return tmp
+def shift(arr,n,i):
+    largest = i
+    left = 2*i +1
+    right = 2*i +2
+    if left < n and arr[left] >arr[largest]:
+        largest = left
+    if right <n and arr[left]>arr[largest]:
+        largest = right
+        
+    if largest != i:
+        arr[i], arr[largest] = arr[largest], arr[i]
+        shift(arr,n,largest)
+    
+def heap_sort(arr:List)->List:
+    n = len(arr)
+    #构建大顶堆
+    for i in range(n//2-1,-1,-1):
+        shift(arr,n,i)
+    for i in range(n-1,0,-1):
+        
 n_list = np.random.randint(-1000, 1000, 10).tolist()
 print(n_list)
-print(insert_sort(n_list))
+print(merge_sort(n_list))
