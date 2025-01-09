@@ -1,18 +1,8 @@
 class Solution:
     def minFallingPathSum(self, matrix: List[List[int]]) -> int:
-        n = len(matrix)
+    # 贪心思想: 从下往上，最后一行的最小值解，肯定是上一行紧邻的三个位置的最小下降路径长度最小解+当前坐标的和
+    # dp[i][j]= matrix[i][j]+ min(dp[i-1][j],dp[i-1])[j-1],dp[i-1][j+1]
+    n = len(matrix)
+    dp [[0]*n for i in range(len(matrix))]
 
-        dp = matrix[-1][:]
-
-        for i in range(n - 2, -1, -1):
-            t_dp = [0] * n
-            for j in range(n):
-                min_sum = dp[j]
-                if j > 0:
-                    min_sum = min(min_sum, dp[j - 1])
-                if j < n - 1:
-                    min_sum = min(min_sum, dp[j + 1])
-                # 上一层更新最小值
-                t_dp[j] = matrix[i][j] + min_sum
-            dp = t_dp
-        return dp[-1]
+    for i
