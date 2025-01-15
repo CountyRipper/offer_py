@@ -1,11 +1,10 @@
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
-        res = triangle[0][0]
-        cur = 0
-        for i in range(len(triangle)):
-            if cur < len(triangle[i]) and triangle[i][cur] > triangle[i][cur + 1]:
-                cur += 1
-                res += triangle[i][cur + 1]
-            else:
-                res += triangle[i][cur]
-        return res
+        n = len(triangle)
+        dp = [0] * (n + 1)
+
+        for i in range(n - 1, -1, -1):
+            for j in range(i):
+                dp[j] = min(dp[j], dp[j + 1]) + triangle[i][j]
+
+        return dp[0]
